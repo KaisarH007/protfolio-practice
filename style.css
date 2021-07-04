@@ -1,5 +1,9 @@
 body {font-family: 'Poppins', sans-serif;
     margin: 0;
+    
+}
+p{
+    text-align: justify;
 }
 h1{
     font-size: 70px;
@@ -18,18 +22,21 @@ h2{
     border-radius: 8px;
     font-weight: 700;
 }
-section{
+.flexible-container{
     display: flex;
 
     }
     .width-half{
         width: 50%;
+        margin-left: 20px;
+        margin-right: 60px;
     }
     .width-half img { width: 100%;}
 
     .top-banner{
         background-image: url(image/yellowbg.jpg);
-        background-position: center;
+        background-repeat: no-repeat;
+        background-position-x: left;
         
     }
     .dream-big{
@@ -44,3 +51,37 @@ section{
     border-radius: 8px;
     font-weight: 700;
     }
+
+    .experience-area{
+        background-image: url(image/exp-bg.png);
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+    
+.experience-item{
+    box-shadow: 10px 10px 60px yellow;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+#full-stack-experience{
+    border-left: 10px solid;
+    border-image-source: linear-gradient(rgb(45, 233, 45),rgb(255, 187, 0));
+    border-image-slice: 1;
+}
+#baby-experience{
+    border-left: 10px solid;
+    border-image-source: linear-gradient(rgb(133, 134, 209),rgb(255, 187, 0));
+    border-image-slice: 1;
+}
+.copy-right{
+    text-align: center;
+    margin-top: 70px;
+}
+.experience{
+    text-align: center;  
+    font-size: 40px;
+    
+}
